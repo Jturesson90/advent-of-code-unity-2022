@@ -1,3 +1,16 @@
 {
-	"name": "AdventOfCode"
+    "name": "AdventOfCode",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5597ea27909f0bb44a2d4e7763fa38c9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

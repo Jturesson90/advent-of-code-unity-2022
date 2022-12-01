@@ -141,7 +141,8 @@ PlayerSettings:
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 11400000, guid: e8beab0ca16139d4bb63e9b0b9b12c14, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 9473d3356b6a03747b51e26da5fc8114, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -159,7 +160,8 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Standalone: com.DefaultCompany.advent-of-code-unity-starter
   buildNumber:
     Standalone: 0
     iPhone: 0

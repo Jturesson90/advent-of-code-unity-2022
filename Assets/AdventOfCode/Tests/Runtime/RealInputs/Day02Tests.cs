@@ -22,7 +22,7 @@ namespace RealInputs
             _day = 2;
         }
 
-        [UnityTest]
+        [Test]
         public async Task PuzzleA()
         {
             // Arrange
@@ -36,7 +36,7 @@ namespace RealInputs
             Assert.AreEqual(expectedResult, result);
         }
 
-        [UnityTest]
+        [Test]
         public async Task PuzzleB()
         {
             // Arrange

@@ -2,6 +2,7 @@ using System.Threading.Tasks;
 using AdventOfCode.Days;
 using JTuresson.AdventOfCode.AOCClient;
 using NUnit.Framework;
+using UnityEngine;
 using UnityEngine.TestTools;
 
 namespace RealInputs
@@ -22,11 +23,11 @@ namespace RealInputs
             _day = 1;
         }
 
-        [UnityTest]
+        [Test]
         public async Task PuzzleA()
         {
             // Arrange
-            var expectedResult = "";
+            var expectedResult = "66306";
             var input = await _client.LoadDayInput(_day);
 
             // Act
@@ -36,11 +37,11 @@ namespace RealInputs
             Assert.AreEqual(expectedResult, result);
         }
 
-        [UnityTest]
+        [Test]
         public async Task PuzzleB()
         {
             // Arrange
-            var expectedResult = "";
+            var expectedResult = "195292";
             var input = await _client.LoadDayInput(_day);
 
             // Act
