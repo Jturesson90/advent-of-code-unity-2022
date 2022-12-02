@@ -5,9 +5,7 @@ namespace ExampleInputs
 {
     public class Day02Tests
     {
-        [TestCase("1234", "4321")]
-        [TestCase("1234", "4321")]
-        [TestCase("1234", "4321")]
+        [TestCase("A Y\nB X\nC Z", "15")]
         public void PuzzleA(string input, string expectedResult)
         {
             // Arrange
@@ -17,12 +15,10 @@ namespace ExampleInputs
             var result = day.PuzzleA(input);
 
             // Assert
-            Assert.AreEqual(result, expectedResult);
+            Assert.AreEqual(expectedResult, result);
         }
 
-        [TestCase("1234", "4321")]
-        [TestCase("1234", "4321")]
-        [TestCase("1234", "4321")]
+        [TestCase("A Y\nB X\nC Z", "12")]
         public void PuzzleB(string input, string expectedResult)
         {
             // Arrange
