@@ -17,7 +17,7 @@ namespace ExampleInputs
             var result = day.PuzzleA(input);
 
             // Assert
-            Assert.AreEqual(result, expectedResult);
+            Assert.AreEqual(expectedResult, result);
         }
 
         [TestCase("1234", "4321")]
@@ -32,7 +32,7 @@ namespace ExampleInputs
             var result = day.PuzzleB(input);
 
             // Assert
-            Assert.AreEqual(result, expectedResult);
+            Assert.AreEqual(expectedResult, result);
         }
     }
 }

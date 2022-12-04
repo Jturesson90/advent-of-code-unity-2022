@@ -15,7 +15,7 @@ namespace ExampleInputs
             var result = day.PuzzleA(input);
 
             // Assert
-            Assert.AreEqual(result, expectedResult);
+            Assert.AreEqual(expectedResult, result);
         }
 
         [TestCase("1000\n2000\n3000\n\n4000\n\n5000\n6000\n\n7000\n8000\n9000\n\n10000", "45000")]
@@ -28,7 +28,7 @@ namespace ExampleInputs
             var result = day.PuzzleB(input);
 
             // Assert
-            Assert.AreEqual(result, expectedResult);
+            Assert.AreEqual(expectedResult, result);
         }
     }
 }

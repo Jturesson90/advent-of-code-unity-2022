@@ -28,7 +28,7 @@ namespace ExampleInputs
             var result = day.PuzzleB(input);
 
             // Assert
-            Assert.AreEqual(result, expectedResult);
+            Assert.AreEqual(expectedResult, result);
         }
     }
 }
