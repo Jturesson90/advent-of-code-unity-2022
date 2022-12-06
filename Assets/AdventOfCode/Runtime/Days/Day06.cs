@@ -30,6 +30,7 @@ namespace AdventOfCode.Days
                 b.Clear();
                 for (var j = 0; j < distinct; j++)
                 {
+                    if (b.Contains(row[i + j])) break;
                     b.Add(row[i + j]);
                 }
 
