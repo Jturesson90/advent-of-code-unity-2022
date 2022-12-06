@@ -5,9 +5,9 @@ namespace ExampleInputs
 {
     public class Day05Tests
     {
-        [TestCase("1234", "4321")]
-        [TestCase("1234", "4321")]
-        [TestCase("1234", "4321")]
+        [TestCase(
+            "    [D]    \n[N] [C]    \n[Z] [M] [P]\n1   2   3 \n\nmove 1 from 2 to 1\nmove 3 from 1 to 3\nmove 2 from 2 to 1\nmove 1 from 1 to 2",
+            "CMZ")]
         public void PuzzleA(string input, string expectedResult)
         {
             // Arrange
