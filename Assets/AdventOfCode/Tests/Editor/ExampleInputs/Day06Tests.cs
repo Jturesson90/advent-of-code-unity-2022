@@ -5,9 +5,11 @@ namespace ExampleInputs
 {
     public class Day06Tests
     {
-        [TestCase("1234", "4321")]
-        [TestCase("1234", "4321")]
-        [TestCase("1234", "4321")]
+        [TestCase("mjqjpqmgbljsphdztnvjfqwrcgsmlb", "7")]
+        [TestCase("bvwbjplbgvbhsrlpgdmjqwftvncz", "5")]
+        [TestCase("nppdvjthqldpwncqszvftbrmjlhg", "6")]
+        [TestCase("nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg", "10")]
+        [TestCase("zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw", "11")]
         public void PuzzleA(string input, string expectedResult)
         {
             // Arrange
