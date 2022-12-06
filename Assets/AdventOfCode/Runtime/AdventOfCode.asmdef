@@ -2,7 +2,8 @@
     "name": "AdventOfCode",
     "rootNamespace": "",
     "references": [
-        "GUID:5597ea27909f0bb44a2d4e7763fa38c9"
+        "GUID:5597ea27909f0bb44a2d4e7763fa38c9",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

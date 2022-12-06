@@ -7,14 +7,14 @@ namespace AdventOfCode.Days
     {
         public string PuzzleA(string input)
         {
-            var pairs = ParseInput.ParseAsMultiArray(input.Trim(), '\n', ',');
+            var pairs = ParseInput.ParseAsMultiArray(input.Trim(), "\n", ",");
             var count = Count(pairs, Contains);
             return count.ToString();
         }
 
         public string PuzzleB(string input)
         {
-            var pairs = ParseInput.ParseAsMultiArray(input.Trim(), '\n', ',');
+            var pairs = ParseInput.ParseAsMultiArray(input.Trim(), "\n", ",");
             var count = Count(pairs, Overlaps);
             return count.ToString();
         }
