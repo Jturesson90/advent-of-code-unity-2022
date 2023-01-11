@@ -35,7 +35,7 @@ namespace AdventOfCode.Days
 
         public string PuzzleA(string input)
         {
-            var cordination = ParseInput.ParseAsMultiArray(input, "\n\n", "\n");
+            var cordination = ParseInput.ParseAsJaggedArray(input, "\n\n", "\n");
             var left = cordination[0];
             var right = cordination[1];
             var bay = ParseBay(left);
@@ -65,7 +65,7 @@ namespace AdventOfCode.Days
 
         public string PuzzleB(string input)
         {
-            var cordination = ParseInput.ParseAsMultiArray(input, "\n\n", "\n");
+            var cordination = ParseInput.ParseAsJaggedArray(input, "\n\n", "\n");
             var left = cordination[0];
             var right = cordination[1];
             var bay = ParseBay(left);

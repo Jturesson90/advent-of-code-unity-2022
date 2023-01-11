@@ -3,7 +3,6 @@ using AdventOfCode.Days;
 using JTuresson.AdventOfCode.AOCClient;
 using NUnit.Framework;
 using UnityEngine;
-using UnityEngine.TestTools;
 
 namespace RealInputs
 {

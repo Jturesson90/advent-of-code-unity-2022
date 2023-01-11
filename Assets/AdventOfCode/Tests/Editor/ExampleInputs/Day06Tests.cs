@@ -22,9 +22,7 @@ namespace ExampleInputs
             Assert.AreEqual(expectedResult, result);
         }
 
-        [TestCase("1234", "4321")]
-        [TestCase("1234", "4321")]
-        [TestCase("1234", "4321")]
+
         public void PuzzleB(string input, string expectedResult)
         {
             // Arrange

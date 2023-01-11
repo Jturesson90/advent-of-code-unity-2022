@@ -26,7 +26,7 @@ namespace RealInputs
         public async Task PuzzleA()
         {
             // Arrange
-            var expectedResult = "";
+            var expectedResult = "5185";
             var input = await _client.LoadDayInput(_day);
 
             // Act
@@ -40,7 +40,7 @@ namespace RealInputs
         public async Task PuzzleB()
         {
             // Arrange
-            var expectedResult = "";
+            var expectedResult = "23751";
             var input = await _client.LoadDayInput(_day);
 
             // Act

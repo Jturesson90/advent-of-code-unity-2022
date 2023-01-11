@@ -5,9 +5,7 @@ namespace ExampleInputs
 {
     public class Day12Tests
     {
-        [TestCase("1234", "4321")]
-        [TestCase("1234", "4321")]
-        [TestCase("1234", "4321")]
+        [TestCase("Sabqponm\nabcryxxl\naccszExk\nacctuvwj\nabdefghi", "31")]
         public void PuzzleA(string input, string expectedResult)
         {
             // Arrange
